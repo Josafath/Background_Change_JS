@@ -41,7 +41,7 @@
         padding: 6px;
         width: 255px;
         height: auto;
-        margin: 14em 0 3em 4.6em;
+        margin: 14em 0 3em 4em;
     }
     .container {
         display: inline-block;
@@ -52,7 +52,7 @@
         margin-top: 10em;
         -webkit-transition: all 1s ease;
         transition: all 1s ease;
-        margin-left: 5.8em;
+        margin-left: 6em;
         background-color: inherit;
     }
 }
