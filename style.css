@@ -14,13 +14,12 @@
     font-size: 18px;
     cursor: pointer;
     outline: none;
-    border: white 1px solid;
+    border: white 2px solid;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
 
 .change:hover {
-    background-color: black;
     color: white;
 }
 
@@ -54,5 +53,6 @@
         -webkit-transition: all 1s ease;
         transition: all 1s ease;
         margin-left: 4.8em;
+        background-color: inherit;
     }
 }
