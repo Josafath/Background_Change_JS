@@ -35,13 +35,13 @@
     box-shadow: 10px 10px 5px 0px rgba(37, 37, 37, 0.15);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     .background {
         font-size: 16px;
         padding: 6px;
         width: 255px;
         height: auto;
-        margin: 14em 0 3em 3em;
+        margin: 14em 0 3em 3.8em;
     }
     .container {
         display: inline-block;
@@ -52,7 +52,7 @@
         margin-top: 10em;
         -webkit-transition: all 1s ease;
         transition: all 1s ease;
-        margin-left: 4.8em;
+        margin-left: 7em;
         background-color: inherit;
     }
 }
