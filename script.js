@@ -27,18 +27,18 @@ document.addEventListener('DOMContentLoaded', () => {
         hex = "#";
         let value_x = Math.floor(x / 16);
         let value_x_remainder = Math.floor(x % 16);
-        hex += hex_table[value_x];
-        hex += hex_table[value_x_remainder];
+        hex += hexa_table[value_x];
+        hex += hexa_table[value_x_remainder];
 
         let value_y = Math.floor(y / 16);
         let value_y_remainder = Math.floor(y % 16);
-        hex += hex_table[value_y];
-        hex += hex_table[value_y_remainder];
+        hex += hexa_table[value_y];
+        hex += hexa_table[value_y_remainder];
 
         let value_z = Math.floor(z / 16);
         let value_z_remainder = Math.floor(z % 16);
-        hex += hex_table[value_z];
-        hex += hex_table[value_z_remainder];
+        hex += hexa_table[value_z];
+        hex += hexa_table[value_z_remainder];
 
         document.querySelector(".data-color").innerHTML = `Background Color: ${hex}`;
 
